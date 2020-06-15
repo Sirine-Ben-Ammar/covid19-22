@@ -32,7 +32,7 @@ DROP TABLE IF EXISTS `regions`;
 CREATE TABLE IF NOT EXISTS `regions` (
   `id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
-  `longitude` varchar(255) NOT NULL,
+  `longitude` varchar(255) NOT NULL
   `latitude` varchar(255) NOT NULL,
   `population` int(11) NOT NULL,
   `confirmes` int(11) NOT NULL,
